@@ -1,0 +1,1 @@
+function m(n,t){let e=t.reduce((r,o)=>r+o.amount,0);return{totalSpending:e,remaining:n-e}}export{m as t};
